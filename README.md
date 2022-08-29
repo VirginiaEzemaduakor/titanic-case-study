@@ -95,10 +95,10 @@ From the dataset, all the 152 females aboard the ship from all 3 classes survive
  The analysis of survived passengers by their age group and embarked location shows that the passengers within the adult age (40-59years) has the highest total survival of 94 passengers, while the passengers within the teenager age (1-19years) has the lowest total survival of 7 passengers. No passenger within the age of 0-19 year survived in Queenstown, while no passenger within the age >60 embarked in Queenstown.  
 
 
-### Dead Passengers Dashboard
+### Dead passengers dashboard
 ![Fig.2](images/dead_dashboard.png)
 
-### Survived Passengers Dashboard
+### Survived passengers dashboard
 ![Fig.3](images/survived_dashboard.png)
 
 
