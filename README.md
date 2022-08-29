@@ -10,15 +10,14 @@
 2.	[Exploratory Data Analysis](#Exploratory-Data-Analysis) 
 
     - [Passengers by class and sex](#Passeners-by-class-and-sex)
-    - [Passengers by age group and embarkment](#Passengers-by-age-group-and-embarked-location)
+    - [Passengers by age group and embarked-location](#Passengers-by-age-group-and-embarked-location)
     - [Passengers by children and siblings](#Passengers-by-children-and-siblings)
-    - 
-
+    
 3. [Overview Dashboard](#Overview-Dashboard)
 
 4. [Tailored Data Analysis](Tailored-Data-Analysis)
  
-    - [Survived passengers by sex and class](#Survived-passengers-by-sex)
+    - [Survived passengers by sex and class](#Survived-passengers-by-sex-and-class)
     - [Survived passengers by age group and embarked location](#Survived-passengers-by-age-group-and-embarked-location) 
     - [Dead passengers dashboard](#Dead-passengers-dashboard)
     - [Survived passengers dashboard](#Survived-passengers-dashboard)
@@ -57,7 +56,6 @@ age group and location            |  description
  ![Chart2](images/agegroup.png) ![Chart3](images/location.png)     |  From the given data, I observed 332 registered ages missing. In order to capture all the registered ages, I manipulated the data using measure of Centre by filling the missing ages with the average age. From my analysis, they were more passengers between the ages of 20 to 39 years (~66%) and  lesser passengers that is; 14 (~3%) passengers are >60 years old. Passengers embarked on the ship from three (3) locations namely; Cherbourg, Queenstown and Southampton. 270 passengers went aboard the ship at port Southampton, 102 at port Queenstown and 46 at port Cherbourg. Southampton had the most passengers while Queenstown had the least passengers.
 	
  
-
 ### Passengers by children and siblings
 
 children and siblings               |  description
@@ -69,12 +67,9 @@ children and siblings               |  description
 ![Fig.1](images/overview_dashboard.png)
 
 
-
-
 ## TAILORED DATA ANALYSIS
 
 The next stage is tailored data analysis. The analysis in this study aims to make comparative analysis of passengers between each feature to determine the feature which would influence the survival rate as well as the dead rate. 
-
 
 ### Survived passengers by sex and class
 
@@ -95,7 +90,7 @@ From the dataset, all the 152 females aboard the ship from all 3 classes survive
 |   20-39   |     5     |     3      |     20      |   28  |
 |   40-59   |    20     |    21      |     53      |   94  |
 |   >60     |    13     |            |     10      |   23  |
-|
+
 
  The analysis of survived passengers by their age group and embarked location shows that the passengers within the adult age (40-59years) has the highest total survival of 94 passengers, while the passengers within the teenager age (1-19years) has the lowest total survival of 7 passengers. No passenger within the age of 0-19 year survived in Queenstown, while no passenger within the age >60 embarked in Queenstown.  
 
@@ -107,11 +102,11 @@ From the dataset, all the 152 females aboard the ship from all 3 classes survive
 ![Fig.3](images/survived_dashboard.png)
 
 
-## 4. CONCLUSION
+## Conclusion
 
 Data cleaning is the first step while performing data analysis. Exploratory data analytics in this context helps one to understand the dataset by showing the number of passengers in each features. EDA is used to figure out the total number of passengers that boarded the titanic ship based on class, sex, port of embarkation, passengers whose siblings aboard the ship and passengers whose children aboard the ship. Tailored data analytics in this study helps to give a simple comparison of passengers in each of the features in other to make predictions of how certain features could influence the survival rate and dead rate of the passengers. This is done by using graphical techniques.
 
-By applying TDA some conclusions are drawn and facts are found. There is high influence of sex on survival. We can see from [Survived passengers by sex and class](#Survived-passengers-by-sex) that the number of survived passengers are the total number of female (152), while non of the 266 male passengers survived. With the high influence rate, we can say the female passengers are more likely to survive giving the 100 percent survival rate.
+By applying TDA some conclusions are drawn and facts are found. There is high influence of sex on survival. We can see from [Survived passengers by sex and class](#Survived-passengers-by-sex-and-class) that the number of survived passengers are the total number of female (152), while non of the 266 male passengers survived. With the high influence rate, we can say the female passengers are more likely to survive giving the 100 percent survival rate.
 
 The influence of age on survival. From the table below, it shows how age could influence the possibility of survival. Given the total of 418 passengers that aboard the ship, 152 (~36) passengers survived the wrecked ship. Based on their age group, out of the 61 passengers within the teenager (0-19years) age bracket, 28 survived; out of the 275 passengers within the youth (20-39years) age bracket, 94 passengers survived; out of the 68 passengers within the adult (40-59years) age bracket, 23 survived; and lastly, out of the 14 passengers within the elders (>60 years) ages that boarded the ship, 7 survived the wrecked ship.
 
